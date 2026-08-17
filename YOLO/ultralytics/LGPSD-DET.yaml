@@ -1,0 +1,16 @@
+path: /Light Guide Plate Surface Defect Dataset（LGPSD-DET）/YOLO/ultralytics # dataset root dir
+train: /Light Guide Plate Surface Defect Dataset（LGPSD-DET）/YOLO/ultralytics/LGPSD-DET/images/train # train images 11159 images
+val: /Light Guide Plate Surface Defect Dataset（LGPSD-DET）/YOLO/ultralytics/LGPSD-DET/images/val # val images 2137 images
+test: /Light Guide Plate Surface Defect Dataset（LGPSD-DET）/YOLO/ultralytics/LGPSD-DET/images/test # test images 4488 images
+
+# Classes
+names:
+  0: scratch
+  1: missing
+  2: black_shadow
+  3: white_stain
+  4: dark_spot
+  5: scar
+  6: white_shadow
+
+
